@@ -13,12 +13,12 @@ const questions = [
     {
         type: "input",
         message: "How do you describe your project?",
-        name: "describe"
+        name: "description"
     },
     {
         type: "input",
         message: "How do you install your project?",
-        name: "install"
+        name: "installation"
     },
     {
         type: "input",
@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         message: "Emter contribution information:",
-        name: "contribute"
+        name: "contributing"
     },
     {
         type: "input",
