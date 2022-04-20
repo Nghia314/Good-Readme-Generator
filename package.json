@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nghia314/Good-Readme-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nghia314/Good-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/Nghia314/Good-Readme-Generator#readme",
+  "keywords": []
 }
