@@ -71,7 +71,12 @@ function init() {
     .then(function(data)  {
         writeToFile(fileName,data)
     })
-}
+    .catch(err => {
+        console.log('err', err);
+
+    });
+    
+};
 
 // Function call to initialize app
 init();
