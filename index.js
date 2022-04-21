@@ -38,8 +38,11 @@ const questions = [
     },
     {
         type: "input",
+         name: "licenses",
         message: "Please enter the license you want to use?",
-        name: "licenses"
+        choices: ['GNU','MIT','Perl'],
+        default: ["MIT"],
+       
     },
     {
         type: "input",
