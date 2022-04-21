@@ -1,35 +1,33 @@
 # Good Readme generator
   ![Project license](https://img.shields.io/badge/license-undefined-brightgreen)
   ## Descriptions
-  Example description goes here
+  This project is A command-line tool, help user quick and easy generate a good and quality Readme
 
   ## Table of Contents
   * [installation](#installation)
   * [usage](#usage)
-  * [contributing](#contributing)
+  * [tutortial](#turorial)
   * [tests](#tests)
   * [license](#license)
   * [Questions](#questions)
   
   ## Installation
-  Explain how you install the project
+  In order to install this application, user will need to have node,js installed. Once they have it in stall they can clone the repository and run the command line 'npm install -y'.
 
   ## Usage
-   explain
+   This application is create to run with command line. Once they had everything set they could start generate by type in the comman line "node index.js" and start answer the question.
 
-  ## Contributing
-  explain
+   ## Turtorial
 
-  ## Tests
-  yes or no answer
 
   ## License
   undefined
 
   ## Questions
+  If you have any questions, about the application please contact me!!
   
-  Github Username: name
+  Github Username: Nghia314
 
-  Github Profile: www.github.com/name/
+  Github Profile: www.github.com/Nghia314/
 
-  Email address: youremail@address
+  Email address: Davidle314@hotmail.com
