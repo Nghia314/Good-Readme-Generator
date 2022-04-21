@@ -1,9 +1,8 @@
 // TODO: Include packages needed for this application
-import { prompt } from 'inquirer.js';
-import { writeFile } from 'fs';
-import generateMarkdown from './utils/generateMarkdown';
+const inquire = require("inquire");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const fileName = "README.md";
-import util from 'util';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -58,7 +57,7 @@ const questions = [
 function writeToFile(fileName, data) {
  const markdown = generateMarkdown(data);
 
- writeFile(fileName, markdown, function (err){
+ fs.writeFile(fileName, markdown, function (err){
      if (err) throw err;
      else console.log('success, creating readme');
 
